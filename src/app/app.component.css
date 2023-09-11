@@ -1,5 +1,7 @@
-header {
-  margin-top: 15px;
-  display: flex;
-  justify-content: center;
+section {
+    display: flex;
+}
+
+.btns-img {
+    display: flex;
 }

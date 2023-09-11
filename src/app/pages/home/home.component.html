@@ -1,38 +1,65 @@
-<app-menu-title></app-menu-title>
+<div class="container__home">
+    <app-big-card-img 
+        title="The most beautiful places in the world!" 
+        textDescription="Plan your vocation on the most beautiful places in the world."
+        urlPhoto="https://p1.pxfuel.com/preview/827/712/1020/mountains-alaska-landscape-wilderness.jpg"
+        >
+    </app-big-card-img>
+    <section class="container__section">
 
-<div class="container__articles">
-  <div class="articles__main">
+        <div class="container__menu-bar">
+            <app-menu-bar urlPhoto="https://pontodamulher.com.br/sites/default/files/2022-10/foto-de-perfil-tres-dicas-fundamentais-para-transmitir-imagem-que-deseja.jpg"></app-menu-bar>
+        </div>
+        
+        <div class="container__menu-category">
+            <app-menu-category></app-menu-category>
+        </div>
+        
+        <div class="container__small-card">
+            <app-small-card-img 
+                Id="1"
+                points="4.8"
+                title="Alaska"
+                description="Alasca, um dos 50 estados dos Estados Unidos"
+                urlPhoto="https://i.pinimg.com/736x/f8/b3/35/f8b3353ccb182fd63c16a085112bdce1.jpg"
+            >
+            </app-small-card-img>
+            <app-small-card-img
+                Id="2"
+                points="5.0"
+                title="Iceland"
+                description="País nórdico insular europeu"
+                urlPhoto="https://static.wixstatic.com/media/df9fb8_b1510fc657d94cef9e05566a6f7a8167~mv2.jpg/v1/fill/w_1000,h_773,al_c,q_85,usm_0.66_1.00_0.01/df9fb8_b1510fc657d94cef9e05566a6f7a8167~mv2.jpg"></app-small-card-img>
+            <app-small-card-img
+                Id="3"
+                points="4.9"
+                title="Albuquerque"
+                description="O sol brilhante define a região"
+                urlPhoto="https://images.rove.me/w_1920,q_85/goma3vpttqvrhqyugjvi/mexico-festival-del-globo-international-balloon-festival.jpg"></app-small-card-img>
+        </div>
+        
+        <h2>Types of Travel</h2>
+        <div class="container__btns-img">
+            <app-button-img 
+                text="All"
+                urlPhoto="https://cdn.jsdelivr.net/emojione/assets/4.0/png/128/2708.png"
+            ></app-button-img>
 
-    <app-big-card
-      Id="1"
-      photoCover="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/7F51FA9F6CBD9F0C9B1394B1CC0A6A842D07091318674E234CD33CBF7C28CDC3/scale?width=1200&aspectRatio=1.78&format=jpeg"
-      cardTitle="NOVO HOMEM DE FERRO EM 3D"
-      cardDescription="Marvel Anuncia novo homem de ferro"
-      >
-    </app-big-card>
+            <app-button-img 
+                text="Solo"
+                urlPhoto="https://i.pinimg.com/474x/35/c4/58/35c458a849e8545a52d0b8b0d668cece.jpg"
+            ></app-button-img>
 
-  </div>
-  <div class="articles__others">
-    <app-small-card
-      Id="2"
-      cardTitle="Nova Série anunciada no Disney +"
-      photoCover="https://disneyplusbrasil.com.br/wp-content/uploads/2021/07/Series-Marvel-Disney-Plus-1024x576.jpg"
-    >
-    </app-small-card>
+            <app-button-img 
+                text="Luxury"
+                urlPhoto="https://images.emojiterra.com/google/android-12l/512px/1f31f.png"
+            ></app-button-img>
 
-    <app-small-card
-      Id="3"
-      cardTitle="Novo filme do pantera negra lançado em breve"
-      photoCover="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/35720ACD323F927C3A83D809D0F460BD3651740DA519BCC184B6F042057EA14D/scale?width=1200&aspectRatio=1.78&format=jpeg"
-    >
-    </app-small-card
-    >
+            <app-button-img
+                text="Safary"
+                urlPhoto="https://images.emojiterra.com/google/android-marshmallow/128px/1f981.png"
+            ></app-button-img>
+        </div>
 
-    <app-small-card
-      Id="4"
-      cardTitle="Novo filme dos X-men está em pós produção, afirma diretor"
-      photoCover="https://midias.correiobraziliense.com.br/_midias/jpg/2022/07/22/675x450/1_xmen-26096415.jpeg?20220722171339?20220722171339"
-    >
-    </app-small-card>
-  </div>
+    </section>
 </div>
